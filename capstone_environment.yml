@@ -157,5 +157,9 @@ dependencies:
     - urllib3==1.25.7
     - werkzeug==0.16.0
     - wrapt==1.11.2
+<<<<<<< HEAD
 
+=======
+prefix: /home/narquette/anaconda3/envs/capstone
+>>>>>>> 91e309f4dc86f61dec692d6b72dc1613c5edc65b
 
