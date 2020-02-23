@@ -1,3 +1,6 @@
+# import modules
+import unicodedata
+
 # build function to determine if the appointment is the same day
 def same_day_appt(sched_day,appt_day):
     is_same_day = 0
