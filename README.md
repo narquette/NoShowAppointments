@@ -41,10 +41,15 @@ cp -r /mnt/c/users/narquette/Dropbox/Personal/School/DataScience_Capstone/NoShow
 cd NoShowAppointments #go to directory from step 4
 conda env create -f capstone_environment.yml
 ```
-6. Open Jupyter Notebook
+6. Add new environment to Jupyter Kernel
 
 ```sh
-conda activate noshowappts
+conda activate noshowappointments
+python -m ipykernel install --user --name noshowappts --display-name "Python (noshowappts)"
+```
+7. Open Jupyter Notebook
+
+```sh
 jupyter notebook
 ```
 7. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
