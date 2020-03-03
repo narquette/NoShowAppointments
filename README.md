@@ -41,10 +41,9 @@ conda env create -f capstone_environment.yml
 conda activate noshowappts
 jupyter notebook
 ```
-7. Copy URL from command line
+7. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
 
 8. Run Data_Prep.ipynb
-
 
 # Release History
 
