@@ -11,7 +11,7 @@ WSL (Windows Sub-Linux)
 
 # Getting Started 
 
-1. Fork Github Repository
+1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) Github Repository
 2. Copy Files to a Local Directory
 3. Make a directory in WSL
 
