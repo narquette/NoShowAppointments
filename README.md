@@ -3,11 +3,17 @@ Project Used for Capstone
 
 # Pre-requisites
 
-WSL (Windows Sub-Linux)
+Option 1: WSL (Windows Sub-Linux)
 
 1. Enable [WSL](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/) in windows 
 2. Install Ubuntu App from Windows Store
 3. Create Login and sudo password for Linux
+
+Option 2: Google-colab
+
+1. Login to [google colab](https://colab.research.google.com/notebooks/welcome.ipynb)
+2. Copy forked GitHub files to google colab
+3. Run code 
 
 # Getting Started 
 
