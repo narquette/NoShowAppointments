@@ -24,26 +24,26 @@ Option 2: Google-colab
 git clone https://github.com/narquette/NoShowAppointments CapstoneProject
 ```
 
-4. Create Environment for Running Code use environment file
+3. Create Environment for Running Code use environment file
 
 ```sh
 cd NoShowAppointments #go to directory from step 4
 conda env create -f capstone_environment.yml
 ```
-5. Add new environment to Jupyter Kernel
+4. Add new environment to Jupyter Kernel
 
 ```sh
 conda activate noshowappointments
 python -m ipykernel install --user --name noshowappts --display-name "Python (noshowappts)"
 ```
-6. Open Jupyter Notebook
+5. Open Jupyter Notebook
 
 ```sh
 jupyter notebook
 ```
-7. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
+6. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
 
-8. Run Data_Prep.ipynb
+7. Run Data_Prep.ipynb
 
 # Release History
 
