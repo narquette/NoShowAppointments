@@ -17,44 +17,33 @@ Option 2: Google-colab
 
 # Getting Started 
 
-1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) Github Repository
-2. Copy Files to a Local Directory
-3. Make a directory in WSL
+1. Open Windows Sub Linux (Ubuntu App)
+2. Run the folling command
 
 ```sh
-mkdir AppointmentNoShow
+git clone https://github.com/narquette/NoShowAppointments CapstoneProject
 ```
 
-4. Copy Files to new directory
-
-/mnt/c is the same as your C: drive on windows
-
-```sh
-cp -r /mnt/c/users/narquette/Dropbox/Personal/School/DataScience_Capstone/NoShowAppointments/ .
-```
-
-***You won't be able to copy and paste a directory from Windows to you Linux virtual machine
-
-5. Create Environment for Running Code use environment file
+3. Create Environment for Running Code use environment file
 
 ```sh
 cd NoShowAppointments #go to directory from step 4
 conda env create -f capstone_environment.yml
 ```
-6. Add new environment to Jupyter Kernel
+4. Add new environment to Jupyter Kernel
 
 ```sh
 conda activate noshowappointments
 python -m ipykernel install --user --name noshowappts --display-name "Python (noshowappts)"
 ```
-7. Open Jupyter Notebook
+5. Open Jupyter Notebook
 
 ```sh
 jupyter notebook
 ```
-7. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
+6. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
 
-8. Run Data_Prep.ipynb
+7. Run Data_Prep.ipynb
 
 # Release History
 
