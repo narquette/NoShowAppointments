@@ -1,0 +1,19 @@
+<h1>Thank You. Here is the Information You Gave:</h1>
+<ul>    
+    <li><b>Scholarship:</b>  {{session['scholarship']}}</li>
+    <li><b>Hypertension:</b>  {{session['hypertension']}}</li>
+    <li><b>Diabetes:</b>  {{session['diabetes']}}</li>
+    <li><b>Alcoholism:</b>  {{session['alcoholism']}}</li>
+    <li><b>Handicap:</b>  {{session['handicap']}}</li>
+    <li><b>SMS:</b>  {{session['sms']}}</li>
+    <li><b>Same Day Appt:</b>  {{session['samedayappt']}}</li>
+    <li><b>Gender:</b>  {{session['gender']}}</li>    
+    <li><b>Age Group:</b>  {{session['agegroup']}}</li> 
+    <li><b>Neighborhood:</b>  {{session['neighborhood']}}</li>
+    <li><b>Appointment Day of Week:</b>  {{session['apptday']}}</li>
+    <li><b>Schedule Time of Day:</b> {{session['schedTimeOfDay']}}</li>
+    <li><b>Raining:</b> {{session['rainclass']}}</li>
+    <li><b>Normal Versus Actual Tempurature Average:</b> {{session['normvsact']}}</li>
+    <li><b>Missed Appointment Amount:</b> {{session['missedappt']}}</li>    
+</ul>
+<h2>Your Predicted No Show Appointment is: {{results}}</h2>
