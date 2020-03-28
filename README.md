@@ -45,5 +45,13 @@ jupyter notebook
 
 7. Run Data_Prep.ipynb
 
+# Risk Appt Testing
+
+1) Go to https://apptnoshow.herokuapp.com/
+2) Enter in the following value:
+
+<img> src="https://www.screencast.com/t/yXCUFfM02ZyB" </img>
+
+
 # Release History
 
