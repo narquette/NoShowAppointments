@@ -48,9 +48,7 @@ jupyter notebook
 # Risk Appt Testing
 
 1) Go to https://apptnoshow.herokuapp.com/
-2) Enter in the following value:
-
-<img> src="https://www.screencast.com/t/yXCUFfM02ZyB" </img>
+2) Enter in the [following value](https://www.screencast.com/t/yXCUFfM02ZyB):
 
 
 # Release History
