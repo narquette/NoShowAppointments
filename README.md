@@ -45,7 +45,7 @@ jupyter notebook
 
 7. Run Data_Prep.ipynb
 
-# Risk Appt Testing
+# Risk Appointment App Testing
 
 No Show Prediction
 
