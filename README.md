@@ -45,5 +45,17 @@ jupyter notebook
 
 7. Run Data_Prep.ipynb
 
+# Risk Appt Testing
+
+No Show Prediction
+
+1) Go to https://apptnoshow.herokuapp.com/
+2) Enter in the [following values:](https://www.screencast.com/t/yXCUFfM02ZyB)
+3) Press Analyze
+4) View [results](https://www.screencast.com/t/MWXPI1pj83p) 
+
+
+
+
 # Release History
 
