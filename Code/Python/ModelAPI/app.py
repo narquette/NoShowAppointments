@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-from flask import Flask, render_template, session, redirect, url_for, session
+from flask import Flask, render_template, session, redirect, url_for, session, request
 from flask_wtf import FlaskForm
 from wtforms import TextField, SubmitField, DateField, SelectField, StringField
 from wtforms.validators import NumberRange, DataRequired, InputRequired
@@ -148,9 +148,15 @@ class ApptForm(FlaskForm):
 @app.route('/',methods=['GET', 'POST'])
 def index():
     
-    # Create instance of the form.
-    
+    # Create instance of the form.    
     form = ApptForm()
+    
+    # get url paramaters
+    apptday = request.args.get('apptday')
+    if apptday: 
+        form.apptday.choices = apptday
+        
+   
     # If the form is valid on submission (we'll talk about validation next)
     if form.validate_on_submit():
         # Grab the data from the breed on the form.
