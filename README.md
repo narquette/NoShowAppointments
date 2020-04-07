@@ -18,7 +18,7 @@ Option 2: Google-colab
 # Getting Started 
 
 1. Open Windows Sub Linux (Ubuntu App)
-2. Run the folling command
+2. Run the following command
 
 ```sh
 git clone https://github.com/narquette/NoShowAppointments CapstoneProject
