@@ -31,10 +31,11 @@ git clone https://github.com/narquette/NoShowAppointments CapstoneProject
 wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 ```
 
-4. Run install file
+4. Change script to executable and run install file
 
 ```sh
-Anaconda3-2020.02-Linux-x86_64.sh
+chmod +x Anaconda3-2020.02-Linux-x86_64.sh
+./Anaconda3-2020.02-Linux-x86_64.sh
 ```
 
 5. Remove install file
