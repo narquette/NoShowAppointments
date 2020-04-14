@@ -18,32 +18,64 @@ Option 2: Google-colab
 # Getting Started 
 
 1. Open Windows Sub Linux (Ubuntu App)
-2. Run the folling command
+
+2. Run the following command
 
 ```sh
 git clone https://github.com/narquette/NoShowAppointments CapstoneProject
 ```
 
-3. Create Environment for Running Code use environment file
+3. Install Anaconda in Windows Sub Linux
+
+```sh
+wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+```
+
+4. Change script to executable and run install file
+
+```sh
+chmod +x Anaconda3-2020.02-Linux-x86_64.sh
+./Anaconda3-2020.02-Linux-x86_64.sh
+```
+
+5. Remove install file
+
+```sh
+rm Anaconda3-2020.02-Linux-x86_64.sh
+```
+
+6. Activate anaconda
+
+```sh
+source ~anaconda3/bin/activate
+```
+
+7. Update conda
+
+```sh
+conda update --all
+```
+
+8. Create Environment for Running Code use environment file
 
 ```sh
 cd NoShowAppointments #go to directory from step 4
 conda env create -f capstone_environment.yml
 ```
-4. Add new environment to Jupyter Kernel
+9. Add new environment to Jupyter Kernel
 
 ```sh
 conda activate noshowappointments
 python -m ipykernel install --user --name noshowappts --display-name "Python (noshowappts)"
 ```
-5. Open Jupyter Notebook
+10. Open Jupyter Notebook
 
 ```sh
 jupyter notebook
 ```
-6. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
+11. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
 
-7. Run Data_Prep.ipynb
+12. Run Data_Prep.ipynb
 
 # Risk Appointment App Testing
 
