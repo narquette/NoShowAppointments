@@ -1,5 +1,5 @@
 # NoShowAppointments
-This a the project code used for a [Master of Data Science Capstone Project](https://www.linkedin.com/in/nicholasarquette/).  I will be using healthcare data from kaggle.com (see link below) joined with weather data (see link below) to predict whether or not a patient will not show up (NoShow) for an medical appointment.  The capstone project document on my linkedin profile will include steps I think are necessary for anyone data science to successfully implement Data Science in healthcare or other industries.
+This is the project code used for a [Master of Data Science Capstone Project](https://www.linkedin.com/in/nicholasarquette/).  I will be using healthcare data from kaggle.com (see link below) joined with weather data (see link below) to predict whether or not a patient will not show up (NoShow) for an medical appointment.  The capstone project document on my linkedin profile will include steps I think are necessary for anyone data science to successfully implement Data Science in healthcare or other industries.
 
 # Data Used for Analysis
 1. [Healthcare](https://www.kaggle.com/joniarroba/noshowappointments/) 
