@@ -4,8 +4,8 @@ Project code used for Master of Data Science Capstone Project.
 # Data Used for Analysis
 1. [Healthcare](https://www.kaggle.com/joniarroba/noshowappointments/) 
 2. [Weather](https://developer.accuweather.com/user/login)
-  a. The weather data was gathered using the accuweather API.
-  b. The final output was merged together with the healthcare data.
+
+The weather data was gathered using the accuweather API and merged together with the healthcare data.
 
 # Pre-requisites
 
