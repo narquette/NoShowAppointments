@@ -88,7 +88,7 @@ jupyter notebook
 No Show Prediction
 
 1) Go to [Heroku App](https://apptnoshow.herokuapp.com/)
-2) Enter in the [following values:](https://www.screencast.com/t/WopLcsUI95m)
+2) Enter in the [following values:](https://www.screencast.com/t/xFwlA991PF)
 3) Press Analyze
 4) View [results](https://www.screencast.com/t/h1EpH8Pr) 
 
