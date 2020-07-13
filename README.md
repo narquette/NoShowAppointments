@@ -61,5 +61,16 @@ No Show Prediction
 
 Code 
 - Python
-  - Preprocessing
+  - APITesting (local api testing)
+  - Data Processing (exploratory data analysis and processing
+  - Deployment (files needed to deploy application to heroku)
+  - Final Model (the final selected model)
+  - Model API (the local flask prediction app)
+  - Model Evaluation (model evaluation information)
+Data
+- Preprocessing (original data from kaggle)
+- Stage (cleaned data, test and train data)
+Visualizaitons (list of exploratory reports, pandas profile report for completed dataset)
+
+ 
 
