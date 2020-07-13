@@ -45,7 +45,7 @@ jupyter notebook --no-browser
 ```
 5. [Copy URL from command line](https://www.screencast.com/t/JgVmAL6wC)
 
-6. Run Data_Prep.ipynb
+6. Run Data_Prep.ipynb in Code / Python / Data Processing
 
 # Risk Appointment App Testing
 
@@ -55,8 +55,6 @@ No Show Prediction
 2) Enter in the [following values:](https://www.screencast.com/t/xFwlA991PF)
 3) Press Analyze
 4) View [results](https://www.screencast.com/t/h1EpH8Pr) 
-
-
 
 
 # Release History
