@@ -67,9 +67,11 @@ Code
   - Final Model (run final model, save model, predict a single patient)
   - Model API (files needed to deploy application to heroku)
   - Model Evaluation (model evaluation information)
+
 Data
 - Preprocessing (original data from kaggle)
 - Stage (cleaned data, test and train data)
+
 Visualizaitons (list of exploratory reports, pandas profile report for completed dataset)
 
  
