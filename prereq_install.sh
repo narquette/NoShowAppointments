@@ -26,5 +26,11 @@ else
    
    echo "Creating new environment"
    conda env create -f capstone_environment.yml
+   
+   echo "Activating environment"
+   conda activate noshowappointments
+   
+   echo "Adding new environment to kernel"
+   python -m ipykernel install --user --name noshowappts --display-name "Python (noshowappts)"
 fi
 
